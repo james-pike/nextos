@@ -29,7 +29,7 @@ export default function Header() {
 <Navbar fluid rounded>
       <Navbar.Brand href="/">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Webdev.ca</span>
+        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Webdev</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
       <Button style={buttonStyle} href='/contact' className='px-0 bg-blue-600'>Get Quote</Button>
