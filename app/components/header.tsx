@@ -11,6 +11,7 @@ export default function Header() {
         top: 0,
         width: '100%',
         zIndex: 1000, // You can adjust the z-index value if needed
+        borderRadius: 0,
         
         // Add other styling as needed, like background color, box shadow, etc.
       };
