@@ -16,7 +16,7 @@ export default function Header() {
       };
     
       const buttonStyle = {
-        margin: '0 10px', // Add margin to create spacing between buttons
+        margin: '0 5px', // Add margin to create spacing between buttons
         padding: '0px'
       };
 
@@ -25,14 +25,14 @@ export default function Header() {
 
 
 <nav className="fixed top-0 left-0 z-20 w-full bg-white border-b border-gray dark:bg-gray-900 dark:border-gray-600">
-<div className='fixed top-0 z-50 w-full'>
+<div className='fixed z-50 w-full'>
 <Navbar fluid rounded>
       <Navbar.Brand href="/">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Webdev</span>
+        <span className="text-2xl font-semibold text-black dark:text-white">Webdev.ca</span>
       </Navbar.Brand>
-      <div className="flex px-2 md:order-2">
-      <Button style={buttonStyle} href='/contact' className='px-0 bg-blue-600'>Get Quote</Button>
+      <div className="flex px-0 md:order-2">
+      <Button style={buttonStyle} href='/contact' className='px-0 bg-blue-600'>Contact</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
