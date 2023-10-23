@@ -7,10 +7,10 @@ export default function Home() {
      <NavbarCTA></NavbarCTA>
    
      <section className="min-h-screen max-h-screen mt-14 w-full bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply">
-  <div className="relative flex flex-col justify-center items-center h-full py-16 px-4 mx-auto max-w-screen-xl text-white lg:py-20 z-1">
-    <div className="text-center ">
+  <div className="relative flex flex-col justify-center items-center min-h-screen text-white">
+    <div className="text-center">
       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-4 leading-tight">
-        We Invest In The Worlds Potential!
+        We Invest In The World's Potential!
       </h1>
       <p className="text-lg lg:text-xl xl:text-2xl font-light text-gray-400 mb-8">
         Roasted Fresh, Vitamin Infused, Delivered to your Door.
@@ -35,6 +35,8 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+
 
 
 
