@@ -7,10 +7,10 @@ export default function Home() {
      <NavbarCTA></NavbarCTA>
 
 
-     <section className="mt-14 w-full bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply ">
+     <section className="min-h-screen max-h-screen mt-14 w-full bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply ">
     <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-white lg:py-16 z-1">
         <div className="mb-6 max-w-screen-lg lg:mb-0">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
+            <h1 className="mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">We invest in the world’s potential</h1>
             <p className="mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl">The need for energy is universal. That's why Flowbite scientists and engineers are pioneering new research and pursuing new technologies to reduce emissions while creating more efficient fuels. We're committed to responsibly meeting the world's energy needs.</p>
             <a href="#" className="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
                 Learn more about the plan
