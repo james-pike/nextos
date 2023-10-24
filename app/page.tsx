@@ -10,7 +10,7 @@ export default function Home() {
   <div className="relative flex flex-col justify-center items-center min-h-screen text-white">
     <div className="text-center">
       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-4 leading-tight">
-        We Invest In The World's Potential!
+        We Invest In The Worlds Potential!
       </h1>
       <p className="text-lg lg:text-xl xl:text-2xl font-light text-gray-400 mb-8">
         Roasted Fresh, Vitamin Infused, Delivered to your Door.
