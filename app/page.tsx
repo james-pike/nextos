@@ -9,15 +9,14 @@ export default function Home() {
      <section className="min-h-screen max-h-screen mt-14 w-full bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply">
   <div className="relative flex flex-col justify-center items-center min-h-screen text-white">
     <div className="text-center">
-      <h1 className="text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-4 leading-tight">
+      <h1 className="text-5xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-6 leading-tight -mt-10"> 
         We Invest In The Worlds Potential!
       </h1>
-      <p className="text-lg lg:text-xl xl:text-2xl font-light text-gray-400 mb-8">
-        Roasted Fresh, Vitamin Infused, Delivered to your Door.
+      <p className="text-xl lg:text-xl xl:text-2xl font-light text-gray-400 mb-6"> 
+        Roasted Fresh, Vitamin Infused, Packaged Daily & Delivered to your Door.
       </p>
       <button
-        className="inline-flex items-center py-3 px-6 text-lg font-medium text-white bg-blue-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-700 dark:hover:bg-primary-800 dark:focus:ring-primary-900 rounded-lg"
-      >
+        className="inline-flex items-center py-3 px-6 text-lg font-medium text-white bg-blue-600 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-700 dark:hover:bg-primary-800 dark:focus:ring-primary-900 rounded-lg mt-4">
         Get A Free Quote!
         <svg
           className="ml-2 -mr-1 w-5 h-5"
@@ -35,6 +34,7 @@ export default function Home() {
     </div>
   </div>
 </section>
+
 
 
 
