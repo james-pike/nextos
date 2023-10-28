@@ -9,7 +9,7 @@ export default function Home() {
      <section className="min-h-screen max-h-screen mt-14 w-full bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/coast-house-view.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply">
   <div className="relative flex flex-col justify-center items-center min-h-screen text-white">
     <div className="text-center">
-      <h1 className="text-5xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-6 leading-tight -mt-20"> 
+      <h1 className="text-5xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-6 leading-tight -mt-24"> 
         We Invest In The Worlds Potential!
       </h1>
       <p className="text-xl lg:text-xl xl:text-2xl font-light text-gray-400 mb-6"> 

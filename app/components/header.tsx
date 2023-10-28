@@ -20,30 +20,31 @@ const NavbarCTA = () => {
 
 
 
-<nav className="fixed top-0 left-0 z-20 w-full bg-white border-b border-gray dark:bg-gray-900 dark:border-gray-600">
-<div className='fixed top-0 z-50 w-full'>
-<Navbar fluid rounded>
+<nav className="fixed top-0 left-0 z-20 w-full bg-[rgba(255, 255, 255, 0.8)] border-b border-gray dark:bg-[rgba(0, 0, 0, 0.8)] dark:border-gray-600">
+  <div className='fixed top-0 z-50 w-full'>
+    <Navbar fluid rounded>
       <Navbar.Brand href="/">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 ml-3 mr-3 sm:h-9" alt="Flowbite React Logo" />
         <span className="self-center text-2xl font-semibold text-black whitespace-nowrap dark:text-white">Webdev</span>
       </Navbar.Brand>
       <div className="flex px-2 md:order-2">
-      <button className='rounded text-white px-2 mr-1 text-sm bg-blue-600'>Get Quote</button>
+        <button className='rounded text-white px-2 mr-1 text-sm bg-blue-600'>Get Quote</button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-      <ul className="flex flex-col p-4 -mt-1.5 font-medium text-left border border-gray-100 md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"> {/* Apply the classes here */}
-      <Navbar.Link href="/" active className="bg-blue-700 rounded"> {/* Apply the class to the selected item */}
-                  Home
-                </Navbar.Link>
-                <Navbar.Link href="#">About</Navbar.Link>
-                <Navbar.Link href="#">Services</Navbar.Link>
-                <Navbar.Link href="/contact">Contact</Navbar.Link>
-              </ul>
+        <ul className="flex flex-col p-4 -mt-1.5 font-medium text-left border border-gray-100 md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-[rgba(0, 0, 0, 0.8)] dark:border-gray-700"> {/* Apply the classes here */}
+          <Navbar.Link href="/" active className="bg-blue-700 rounded"> {/* Apply the class to the selected item */}
+            Home
+          </Navbar.Link>
+          <Navbar.Link href="#">About</Navbar.Link>
+          <Navbar.Link href="#">Services</Navbar.Link>
+          <Navbar.Link href="/contact">Contact</Navbar.Link>
+        </ul>
       </Navbar.Collapse>
     </Navbar>
-    </div>
-    </nav>
+  </div>
+</nav>
+
 
     )
 }
